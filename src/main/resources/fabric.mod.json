@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "voidless_crypt",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "The Voidless Crypt",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "team.voided.voidlesscrypt.VoidlessCrypt"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "voidless_crypt.mixins.json"
   ],
 
   "depends": {
